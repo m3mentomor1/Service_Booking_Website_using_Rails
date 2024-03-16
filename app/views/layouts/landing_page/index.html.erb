@@ -1,3 +1,5 @@
+<!-- app/views/layouts/landing_page/index.html.erb -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,14 +52,14 @@
         .tagline {
             font-size: 3em;
             font-weight: bold;
-            margin-left: 200px; /* Adjust the margin-left as needed */
+            margin-left: 100px; /* Adjust the margin-left as needed */
             margin-top: 220px;
         }
 
         .description {
             font-size: 1em;
             margin-top: 10px;
-            margin-left: 200px;
+            margin-left: 100px;
         }
 
         .book-now-button {
@@ -69,7 +71,7 @@
             cursor: pointer;
             font-size: 1.2em;
             margin-top: 30px;
-            margin-left: 200px;
+            margin-left: 100px;
             text-transform: uppercase;
         }
 
@@ -92,7 +94,7 @@
         <div class="menu-links">
             <a href="#" class="menu-link">Help</a>
             <a href="#" class="menu-link">About us</a>
-            <a href="#" class="sign-in-link">Sign in</a>
+            <a href="<%= signin_page_index_path %>" class="sign-in-link">Sign in</a> <!-- Link to the sign-in page -->
         </div>
     </div>
     <!-- Sample tagline of the business with image -->
