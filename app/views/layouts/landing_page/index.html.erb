@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Website</title>
+    <style>
+        /* CSS styles can be added here */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .menu-bar {
+            background-color: #efd8d4;
+            color: #333;
+            padding: 30px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .merchant-name {
+            font-size: 1.7em;
+            font-weight: bold;
+            margin-left: 80px; /* Adjust the margin-right as needed */
+        }
+
+        .menu-links {
+            display: flex;
+        }
+
+        .menu-link {
+            margin-right: 20px; /* Adjust the margin-right as needed */
+            text-decoration: none;
+            color: #333;
+        }
+
+        .sign-in-link {
+            margin-right: 50px; /* Adjust the margin-right as needed */
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .sign-in-link:hover {
+            color: blue; /* Change color on hover if desired */
+        }
+
+        .tagline {
+            font-size: 3em;
+            font-weight: bold;
+            margin-left: 200px; /* Adjust the margin-left as needed */
+            margin-top: 220px;
+        }
+
+        .description {
+            font-size: 1em;
+            margin-top: 10px;
+            margin-left: 200px;
+        }
+
+        .book-now-button {
+            background-color: #2f2b2a;
+            color: white;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1.2em;
+            margin-top: 30px;
+            margin-left: 200px;
+            text-transform: uppercase;
+        }
+
+        .book-now-button:hover {
+            background-color: darkblue;
+        }
+
+        .tagline-img {
+            position: absolute;
+            top: 150px; /* Adjust top positioning as needed */
+            right: 200px; /* Adjust right positioning as needed */
+            height: 550px; /* Adjust image height as needed */
+            width: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-bar">
+        <div class="merchant-name">Merchant Name</div>
+        <div class="menu-links">
+            <a href="#" class="menu-link">Help</a>
+            <a href="#" class="menu-link">About us</a>
+            <a href="#" class="sign-in-link">Sign in</a>
+        </div>
+    </div>
+    <!-- Sample tagline of the business with image -->
+    <div class="tagline">Sample Tagline. <%= image_tag('dog_image.png', alt: 'Dog Image', class: 'tagline-img') %></div>
+    <!-- Short description -->
+    <div class="description">Short description of the business.</div>
+    <!-- Book now button -->
+    <button class="book-now-button">Book now</button>
+    <!-- Add other content of your landing page below -->
+</body>
+</html>

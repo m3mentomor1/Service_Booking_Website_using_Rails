@@ -1,0 +1,13 @@
+/* app/assets/stylesheets/landing_page.css */
+
+.menu-bar {
+  background-color: #422929;
+  color: #fff;
+  padding: 10px;
+  /* Add other menu-bar styles here */
+}
+
+.merchant-name {
+  font-size: 20px;
+  /* Add other merchant-name styles here */
+}

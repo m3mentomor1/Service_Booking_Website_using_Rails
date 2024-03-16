@@ -1,3 +1,4 @@
+# config/routes.rb
 Rails.application.routes.draw do
-  root to: 'static#index'
+  root 'landingpage#index'
 end
